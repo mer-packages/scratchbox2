@@ -9,6 +9,7 @@ Prefix: 	/usr
 Group: 		Development/Tools
 ExclusiveArch:	%{ix86}
 BuildRequires:	make
+BuildRequires:	autoconf
 Requires:	fakeroot
 Requires:	libsb2 = %{version}-%{release}
 
